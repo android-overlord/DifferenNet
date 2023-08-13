@@ -57,7 +57,6 @@ webgazer.showVideoPreview(true).showPredictionPoints(true)
 function getNewImage(next = false) {
   const img = document.createElement("img")
   img.src = "https://source.unsplash.com/user/blob12"
-  //https://source.unsplash.com/500x500/?book
   if (next) img.classList.add("next")
   document.body.append(img)
   return img
